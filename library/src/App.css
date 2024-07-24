@@ -1,0 +1,264 @@
+.scroll{
+ 
+  width:1189px;
+  height: 500px;
+ 
+  /* background:rgba(255, 255, 255, 0.5); */
+  /* From https://css.glass */
+/* From https://css.glass */
+/* From https://css.glass */
+/* From https://css.glass */
+/* From https://css.glass */
+background: rgba(177, 171, 167, 0.32);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(13.3px);
+-webkit-backdrop-filter: blur(13.3px);
+border: 1px solid rgba(177, 171, 167, 0.61);
+  overflow: auto;
+  margin-left: 300px;
+  margin-top: 240px;
+  box-shadow: 8px 5px 2px rgba(52, 51, 51, 0.773);
+
+}
+.main{
+  position:fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  background-image: url("./images/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg");
+  margin: 0px;
+}
+table{
+  border-spacing: 0px;
+  width:100% ;
+}
+
+table th{
+  width: 196.25px;
+  height: 40px;
+
+}
+table td{
+  width: 100px;
+  height: 40px;
+}
+
+table td{
+  text-align: center;
+  color: beige;
+}
+thead{
+  position:absolute;
+  padding: 2px 0px;
+  background-color: rgb(80, 139, 206);
+}
+.search{
+  width: 100%;
+  height: 40px;
+  position: relative;
+  margin-left: 50px;
+  top: 150px;
+  display: flex;
+  gap: 10em;
+  
+  
+
+}
+.searchin input{
+  width: 160px;
+  height: 25px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.597);
+}
+
+.searchin  button{
+  width: 80px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: rgb(223, 143, 191);
+}
+.searchin  button:hover{
+
+  background-color: rgb(140, 197, 231);
+}
+
+#val{
+  padding: 2px 4px;
+  background-color: pink;
+  width: 70px;
+  border: 1px solid black;
+  border-radius:20px;
+}
+
+
+#nxt{
+  position: relative;
+  top: 20px;
+  left: 1400px;
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+#nxt:hover{
+  background-color: rgb(195, 115, 128);
+}
+
+.admintable{
+  position: relative;
+}
+.admintable thead{
+  position: relative;
+  width: 400px;
+}
+
+
+
+
+
+
+
+
+.login {
+  
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.outlet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;  
+  margin-bottom: 2rem;
+  color:beige;
+  
+}
+
+label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 300px;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 1.5rem;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+.datepage{
+position: relative;
+left: 500px;
+  
+  width: 100%;
+  top: 30px;
+  display: flex;
+  gap: 2em;
+}
+
+.adminform{
+  position:relative;
+  width: 400px;
+  padding: 5px 4px;
+  top: 10px;
+  left: 40%;
+  background-color: #d5e1d6;
+  text-align: center;
+}
+.adminform h1{
+  color: black;
+}
+
+.adminform  input{
+
+  background-color: #9f9c9c65;
+  color: rgb(26, 25, 25);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.adminform button{
+  
+  width: 80px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: rgb(223, 143, 191);
+}
+
+
+.adminmain{
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/pexels-rafael-cosquiere-1059286-2041540.jpg);
+  background-size:contain;
+  
+  
+}
+
+#homebtn{
+  background-color: pink;
+  cursor: pointer;
+}
+
+#logbutton{
+  width:90px;
+  height: 40px;
+  border:1 px solid grey;
+  border-radius: 12px;
+  background-color: rgb(75, 179, 227);
+  cursor: pointer;
+}
+#logout{
+  position: relative;
+  height: 30px;
+  border-radius: 6px;
+  top: 0px;
+  margin-left: 1530px;
+  background-color: pink;
+  
+
+
+}
+
+
+#alogout{
+  position: relative;
+  height: 30px;
+  border-radius: 6px;
+  top: 15px;
+  
+
+  margin-left: 1100px;
+  
+
+
+}
